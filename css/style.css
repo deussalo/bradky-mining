@@ -263,7 +263,7 @@ h4 { font-size: 1.1rem; font-weight: 600; }
 
 .brand-logo--nav {
   width: clamp(5.5rem, 11vw, 7rem);
-  height: clamp(2.4rem, 4vw, 2.8rem);
+  height: auto;
 }
 
 .nav__links {
@@ -989,7 +989,7 @@ h4 { font-size: 1.1rem; font-weight: 600; }
   .nav__logo { gap: 0.08rem; }
   .nav .brand-logo--nav {
     width: 4.9rem;
-    height: 1.9rem;
+    height: auto;
   }
   .nav .brand-logo-name {
     font-size: 0.52rem;
