@@ -265,7 +265,9 @@ h4 { font-size: 1.1rem; font-weight: 600; }
 
 .brand-logo--nav {
   width: clamp(4.6rem, 9vw, 5.6rem);
-  height: auto;
+  height: clamp(2.2rem, 4.4vw, 2.9rem);
+  max-height: 2.9rem;
+  object-fit: contain;
 }
 
 .nav__links {
@@ -922,6 +924,7 @@ h4 { font-size: 1.1rem; font-weight: 600; }
 .brand-logo--footer {
   width: clamp(5.5rem, 9vw, 6.5rem);
   height: clamp(2.25rem, 3.6vw, 2.6rem);
+  object-fit: contain;
 }
 
 .footer__links {
@@ -991,7 +994,8 @@ h4 { font-size: 1.1rem; font-weight: 600; }
   .nav__logo { gap: 0.08rem; }
   .nav .brand-logo--nav {
     width: 4.1rem;
-    height: auto;
+    height: 2.3rem;
+    max-height: 2.3rem;
   }
   .nav .brand-logo-name {
     font-size: 0.48rem;

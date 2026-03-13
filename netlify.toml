@@ -18,7 +18,8 @@
 [[headers]]
   for = "/css/*"
   [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+    # Do not use immutable for unhashed CSS filenames; browsers can get stuck on stale styles.
+    Cache-Control = "public, max-age=300, must-revalidate"
 
 [[headers]]
   for = "/*.pdf"
