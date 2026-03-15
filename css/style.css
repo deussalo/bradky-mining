@@ -708,9 +708,13 @@ h4 { font-size: 1.1rem; font-weight: 600; }
 }
 
 .w2e-step__icon {
-  font-size: 2rem;
+  width: 32px;
+  height: 32px;
   margin-bottom: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
+  color: var(--gold);
 }
 
 .w2e-step h4 {
@@ -886,16 +890,7 @@ h4 { font-size: 1.1rem; font-weight: 600; }
 .page-hero h1 { color: var(--white); margin-bottom: 0.6rem; }
 .page-hero .lead { color: rgba(255,255,255,0.65); }
 
-/* ── Dividers ────────────────────────────────────────────── */
 
-.gold-line {
-  width: 48px;
-  height: 3px;
-  background: var(--gold);
-  margin-bottom: 1.5rem;
-}
-
-.gold-line--center { margin-inline: auto; margin-bottom: 1.5rem; }
 
 /* ── Footer ──────────────────────────────────────────────── */
 
