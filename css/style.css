@@ -38,7 +38,7 @@ ul { list-style: none; }
   --offwhite:  #F4F3EF;
   --white:     #FFFFFF;
 
-  --nav-h: 72px;
+  --nav-h: 112px;
   --max-w: 1160px;
   --gap:   clamp(1.5rem, 4vw, 3rem);
   --section-pad: clamp(3.5rem, 8vw, 6rem);
@@ -233,41 +233,10 @@ h4 { font-size: 1.1rem; font-weight: 600; }
   line-height: 0;
 }
 
-.brand-logo { object-fit: contain; }
-
-.brand-logo-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 1.12;
-  text-align: center;
-}
-
-.brand-logo-name {
-  font-family: 'Manrope', sans-serif;
-  font-size: 0.64rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--white);
-}
-
-.brand-logo-tagline {
-  font-size: 0.5rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--gold);
-}
-
-.nav .brand-logo-name { white-space: nowrap; }
-.nav .brand-logo-tagline { display: none; }
-.nav .brand-logo-name { font-size: 0.56rem; }
 
 .brand-logo--nav {
-  width: clamp(4.6rem, 9vw, 5.6rem);
-  height: clamp(2.2rem, 4.4vw, 2.9rem);
-  max-height: 2.9rem;
-  object-fit: contain;
+  width: clamp(7.5rem, 15vw, 10rem);
+  height: auto;
 }
 
 .nav__links {
@@ -485,7 +454,13 @@ h4 { font-size: 1.1rem; font-weight: 600; }
 .footprint__item:last-child  { background: var(--charcoal); }
 
 .footprint__flag {
-  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.continent-icon {
+  display: block;
+  height: 3.5rem;
+  width: auto;
   margin-bottom: 0.75rem;
 }
 
@@ -917,9 +892,8 @@ h4 { font-size: 1.1rem; font-weight: 600; }
 }
 
 .brand-logo--footer {
-  width: clamp(5.5rem, 9vw, 6.5rem);
-  height: clamp(2.25rem, 3.6vw, 2.6rem);
-  object-fit: contain;
+  height: clamp(4.2rem, 6.75vw, 5.1rem);
+  width: auto;
 }
 
 .footer__links {
@@ -988,15 +962,9 @@ h4 { font-size: 1.1rem; font-weight: 600; }
   .nav__cta { display: none; }
   .nav__logo { gap: 0.08rem; }
   .nav .brand-logo--nav {
-    width: 4.1rem;
-    height: 2.3rem;
-    max-height: 2.3rem;
+    width: 6rem;
+    height: auto;
   }
-  .nav .brand-logo-name {
-    font-size: 0.48rem;
-    letter-spacing: 0.06em;
-  }
-  .nav .brand-logo-tagline { display: none; }
 
   .w2e-step + .w2e-step::before { display: none; }
 
